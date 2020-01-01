@@ -5,15 +5,16 @@
 ## Code
 you can use my demo directly:
 ```
-git clone https://github.com/WangTingZheng/gameshell-nwjs.git
+wget https://github.com/WangTingZheng/gameshell-nwjs/releases/download/v0.0.0/install.sh
+sh install.sh
 ```
 or create by yourself:
 ```
 mkdir workspace
 cd workspace
-mkdir gameshell-html
+mkdir gameshell-nwjs
 mkdir html
-cd gameshell-html
+cd gameshell-nwjs
 ```
 ### Html
 create `index.html` in `./html`
@@ -24,6 +25,7 @@ create `index.html` in `./html`
     <title>gameshell</title>
 </head>
 <body>
+    <h1>NWjs app is running</h1>
 </body>
 ```
 ### Javascript
@@ -79,3 +81,6 @@ your_nwjs_path ./
 ```
 **Note**: After the app runing, you must minsize the window by hand to let app display in normal size
 ### run in Gameshell
+after install or create demo, please roload the lanucher, you will see a app named NWJS in the desktop.
+
+Entry application, you will see `NWjs app is running`, if you want to exit, press the `MENU` button
