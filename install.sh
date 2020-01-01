@@ -3,4 +3,4 @@ git clone https://github.com/WangTingZheng/gameshell-nwjs.git
 cd /home/cpi/launcher/Menu/GameShell/
 mkdir 98_NWJS
 cd 98_NWJS
-git clone https://github.com/WangTingZheng/gameshell-nwjs/NWJS.sh
+wget https://github.com/WangTingZheng/gameshell-nwjs/releases/download/v0.0.0/NWJS.sh
